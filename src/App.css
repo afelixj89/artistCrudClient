@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1530288782965-fbad40327074?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+}
+
+.titles {
+  font-size: 75px;
+  margin-top: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #000000;
+  text-shadow: 2px 2px 0 #303030, 4px 4px 0 #ffffff, 6px 6px 0 #ad590b84;
+  margin-top: 20vh;
+  background-color: #ffffff3e;
+}
+
+a {
+  margin: 20px;
+  text-decoration: none;
+  font-size: x-large;
+  color: #f98a61b9;
+  text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 2px 1px 0 #000;
+}
+
+a:hover {
+  color: #fff;
+  text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.227);
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.casseteImage {
+  box-shadow: 0 0 40px 8px rgb(0, 0, 0);
+
+ 
+
+}
+
+button{
+  display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: linear-gradient(45deg, #cab040, #935f44);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 0 20px 8px rgb(0, 0, 0);
+
+ 
+
+}
+
+.artistsCard {
+  background-color: rgba(255, 255, 255, 0.307);
+  width: 50%;
+  margin: 10px;
+}
+
+
+.artists-container{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  overflow: auto; 
+  max-height: 600px;
+}
+
+.artists-container::-webkit-scrollbar {
+  width: 12px; 
+}
+
+
+.artists-container::-webkit-scrollbar-thumb {
+  background-color:   #d47755b9;
+  border-radius: 6px; 
+}
+
+
+.artists-container::-webkit-scrollbar-track {
+  background-color: #dfb04480; 
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  margin: 20px;
+  width: 30%;
+  height: 2.2vh;
+}
+
+#submitButton{
+  margin-top: 20px;
+  background: linear-gradient(45deg, #cab040, #935f44);
+  border: none;
+  border-radius: 5px;
+  color: #f98a61b9;
+  text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 2px 1px 0 #000;
+  font-size: 16px;
+  box-shadow: 0 0 20px 8px rgb(0, 0, 0);
+}
+
+#submitButton:hover {
+  background: linear-gradient(45deg, #935f44, #cab040); /* Change gradient direction on hover */
+}
+
